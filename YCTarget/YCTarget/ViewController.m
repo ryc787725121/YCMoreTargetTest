@@ -18,7 +18,7 @@
     [super viewDidLoad];
    
     
-    NSLog(@"我是第一个app");
+    NSLog(@"我是第二个app");
 }
 
 
