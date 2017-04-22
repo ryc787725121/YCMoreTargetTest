@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05924D4D1EAB679F004D8BA7 /* YCOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05924D4C1EAB679F004D8BA7 /* YCOneModel.m */; };
+		05924D501EAB6829004D8BA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D218E1EAB654F00C278FC /* ViewController.m */; };
+		05924D511EAB6829004D8BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D218B1EAB654F00C278FC /* AppDelegate.m */; };
+		05924D521EAB6829004D8BA7 /* YCOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05924D4C1EAB679F004D8BA7 /* YCOneModel.m */; };
+		05924D531EAB6829004D8BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D21881EAB654F00C278FC /* main.m */; };
+		05924D561EAB6829004D8BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059D21951EAB654F00C278FC /* LaunchScreen.storyboard */; };
+		05924D571EAB6829004D8BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059D21931EAB654F00C278FC /* Assets.xcassets */; };
+		05924D581EAB6829004D8BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059D21901EAB654F00C278FC /* Main.storyboard */; };
 		059D21891EAB654F00C278FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D21881EAB654F00C278FC /* main.m */; };
 		059D218C1EAB654F00C278FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D218B1EAB654F00C278FC /* AppDelegate.m */; };
 		059D218F1EAB654F00C278FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D218E1EAB654F00C278FC /* ViewController.m */; };
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05924D4B1EAB679F004D8BA7 /* YCOneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCOneModel.h; sourceTree = "<group>"; };
+		05924D4C1EAB679F004D8BA7 /* YCOneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCOneModel.m; sourceTree = "<group>"; };
+		05924D5C1EAB6829004D8BA7 /* YCTwoTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCTwoTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05924D5D1EAB682A004D8BA7 /* YCMoreTargetTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "YCMoreTargetTest copy-Info.plist"; path = "/Users/renrenyichun/Desktop/App Target commit/YCMoreTargetTest/YCMoreTargetTest copy-Info.plist"; sourceTree = "<absolute>"; };
 		059D21841EAB654F00C278FC /* YCMoreTargetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCMoreTargetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D21881EAB654F00C278FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		059D218A1EAB654F00C278FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05924D541EAB6829004D8BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		059D21811EAB654F00C278FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,6 +104,7 @@
 				059D21A01EAB654F00C278FC /* YCMoreTargetTestTests */,
 				059D21AB1EAB654F00C278FC /* YCMoreTargetTestUITests */,
 				059D21851EAB654F00C278FC /* Products */,
+				05924D5D1EAB682A004D8BA7 /* YCMoreTargetTest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +114,7 @@
 				059D21841EAB654F00C278FC /* YCMoreTargetTest.app */,
 				059D219D1EAB654F00C278FC /* YCMoreTargetTestTests.xctest */,
 				059D21A81EAB654F00C278FC /* YCMoreTargetTestUITests.xctest */,
+				05924D5C1EAB6829004D8BA7 /* YCTwoTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +126,8 @@
 				059D218B1EAB654F00C278FC /* AppDelegate.m */,
 				059D218D1EAB654F00C278FC /* ViewController.h */,
 				059D218E1EAB654F00C278FC /* ViewController.m */,
+				05924D4B1EAB679F004D8BA7 /* YCOneModel.h */,
+				05924D4C1EAB679F004D8BA7 /* YCOneModel.m */,
 				059D21901EAB654F00C278FC /* Main.storyboard */,
 				059D21931EAB654F00C278FC /* Assets.xcassets */,
 				059D21951EAB654F00C278FC /* LaunchScreen.storyboard */,
@@ -143,6 +166,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		05924D4E1EAB6829004D8BA7 /* YCTwoTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05924D591EAB6829004D8BA7 /* Build configuration list for PBXNativeTarget "YCTwoTarget" */;
+			buildPhases = (
+				05924D4F1EAB6829004D8BA7 /* Sources */,
+				05924D541EAB6829004D8BA7 /* Frameworks */,
+				05924D551EAB6829004D8BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCTwoTarget;
+			productName = YCMoreTargetTest;
+			productReference = 05924D5C1EAB6829004D8BA7 /* YCTwoTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
 		059D21831EAB654F00C278FC /* YCMoreTargetTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 059D21B11EAB654F00C278FC /* Build configuration list for PBXNativeTarget "YCMoreTargetTest" */;
@@ -205,8 +245,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = renyichun;
 				TargetAttributes = {
+					05924D4E1EAB6829004D8BA7 = {
+						DevelopmentTeam = 95UA3A5Y4T;
+					};
 					059D21831EAB654F00C278FC = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 95UA3A5Y4T;
 						ProvisioningStyle = Automatic;
 					};
 					059D219C1EAB654F00C278FC = {
@@ -237,11 +281,22 @@
 				059D21831EAB654F00C278FC /* YCMoreTargetTest */,
 				059D219C1EAB654F00C278FC /* YCMoreTargetTestTests */,
 				059D21A71EAB654F00C278FC /* YCMoreTargetTestUITests */,
+				05924D4E1EAB6829004D8BA7 /* YCTwoTarget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		05924D551EAB6829004D8BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05924D561EAB6829004D8BA7 /* LaunchScreen.storyboard in Resources */,
+				05924D571EAB6829004D8BA7 /* Assets.xcassets in Resources */,
+				05924D581EAB6829004D8BA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		059D21821EAB654F00C278FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,12 +324,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		05924D4F1EAB6829004D8BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05924D501EAB6829004D8BA7 /* ViewController.m in Sources */,
+				05924D511EAB6829004D8BA7 /* AppDelegate.m in Sources */,
+				05924D521EAB6829004D8BA7 /* YCOneModel.m in Sources */,
+				05924D531EAB6829004D8BA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		059D21801EAB654F00C278FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				059D218F1EAB654F00C278FC /* ViewController.m in Sources */,
 				059D218C1EAB654F00C278FC /* AppDelegate.m in Sources */,
+				05924D4D1EAB679F004D8BA7 /* YCOneModel.m in Sources */,
 				059D21891EAB654F00C278FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +397,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		05924D5A1EAB6829004D8BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95UA3A5Y4T;
+				INFOPLIST_FILE = "YCMoreTargetTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renyichun.YCMoreTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05924D5B1EAB6829004D8BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95UA3A5Y4T;
+				INFOPLIST_FILE = "YCMoreTargetTest copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renyichun.YCMoreTargetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		059D21AF1EAB654F00C278FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95UA3A5Y4T;
 				INFOPLIST_FILE = YCMoreTargetTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.renyichun.YCMoreTargetTest;
@@ -435,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95UA3A5Y4T;
 				INFOPLIST_FILE = YCMoreTargetTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.renyichun.YCMoreTargetTest;
@@ -491,6 +584,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05924D591EAB6829004D8BA7 /* Build configuration list for PBXNativeTarget "YCTwoTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05924D5A1EAB6829004D8BA7 /* Debug */,
+				05924D5B1EAB6829004D8BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		059D217F1EAB654F00C278FC /* Build configuration list for PBXProject "YCMoreTargetTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,6 +609,7 @@
 				059D21B31EAB654F00C278FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059D21B41EAB654F00C278FC /* Build configuration list for PBXNativeTarget "YCMoreTargetTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +618,7 @@
 				059D21B61EAB654F00C278FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		059D21B71EAB654F00C278FC /* Build configuration list for PBXNativeTarget "YCMoreTargetTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +627,7 @@
 				059D21B91EAB654F00C278FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
