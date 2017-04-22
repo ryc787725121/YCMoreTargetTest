@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  YCMoreTargetTest
+//  YCTarget
 //
 //  Created by 任任义春 on 2017/4/22.
 //  Copyright © 2017年 renyichun. All rights reserved.
@@ -16,16 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    /**
-     
-     
-     我是第一个项目，也是基本功能测试........
-     
-     
-     */
-    
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 

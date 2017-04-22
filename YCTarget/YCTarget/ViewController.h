@@ -1,13 +1,15 @@
 //
-//  YCOneModel.h
-//  YCMoreTargetTest
+//  ViewController.h
+//  YCTarget
 //
 //  Created by 任任义春 on 2017/4/22.
 //  Copyright © 2017年 renyichun. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface YCOneModel : NSObject
+@interface ViewController : UIViewController
+
 
 @end
+

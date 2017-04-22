@@ -1,6 +1,6 @@
 //
-//  YCMoreTargetTestTests.m
-//  YCMoreTargetTestTests
+//  YCTargetTests.m
+//  YCTargetTests
 //
 //  Created by 任任义春 on 2017/4/22.
 //  Copyright © 2017年 renyichun. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface YCMoreTargetTestTests : XCTestCase
+@interface YCTargetTests : XCTestCase
 
 @end
 
-@implementation YCMoreTargetTestTests
+@implementation YCTargetTests
 
 - (void)setUp {
     [super setUp];
