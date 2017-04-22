@@ -15,6 +15,7 @@
 		05924DB91EAB6A8E004D8BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05924DB71EAB6A8E004D8BA7 /* LaunchScreen.storyboard */; };
 		05924DC41EAB6A8E004D8BA7 /* YCTargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05924DC31EAB6A8E004D8BA7 /* YCTargetTests.m */; };
 		05924DCF1EAB6A8E004D8BA7 /* YCTargetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05924DCE1EAB6A8E004D8BA7 /* YCTargetUITests.m */; };
+		05924DF01EAB6CC5004D8BA7 /* YCOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05924DEF1EAB6CC5004D8BA7 /* YCOneModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		05924DCA1EAB6A8E004D8BA7 /* YCTargetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCTargetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05924DCE1EAB6A8E004D8BA7 /* YCTargetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTargetUITests.m; sourceTree = "<group>"; };
 		05924DD01EAB6A8E004D8BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05924DEE1EAB6CC5004D8BA7 /* YCOneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCOneModel.h; sourceTree = "<group>"; };
+		05924DEF1EAB6CC5004D8BA7 /* YCOneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCOneModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				05924DAD1EAB6A8E004D8BA7 /* AppDelegate.m */,
 				05924DAF1EAB6A8E004D8BA7 /* ViewController.h */,
 				05924DB01EAB6A8E004D8BA7 /* ViewController.m */,
+				05924DEE1EAB6CC5004D8BA7 /* YCOneModel.h */,
+				05924DEF1EAB6CC5004D8BA7 /* YCOneModel.m */,
 				05924DB21EAB6A8E004D8BA7 /* Main.storyboard */,
 				05924DB51EAB6A8E004D8BA7 /* Assets.xcassets */,
 				05924DB71EAB6A8E004D8BA7 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				05924DB11EAB6A8E004D8BA7 /* ViewController.m in Sources */,
 				05924DAE1EAB6A8E004D8BA7 /* AppDelegate.m in Sources */,
+				05924DF01EAB6CC5004D8BA7 /* YCOneModel.m in Sources */,
 				05924DAB1EAB6A8E004D8BA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				05924DD51EAB6A8E004D8BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05924DD61EAB6A8E004D8BA7 /* Build configuration list for PBXNativeTarget "YCTargetTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				05924DD81EAB6A8E004D8BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05924DD91EAB6A8E004D8BA7 /* Build configuration list for PBXNativeTarget "YCTargetUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				05924DDB1EAB6A8E004D8BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
